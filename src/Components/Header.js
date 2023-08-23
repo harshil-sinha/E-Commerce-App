@@ -1,8 +1,8 @@
 const Header = () =>{
     return (
         <>
-        <div className="card text-center  mt-2">
-        <div className="card-footer text-body-secondary">
+        <div className="card text-center head">
+        <div className="card-footer text-body-secondary p-5">
             <h1>The Generics</h1>
         </div>
         </div>
