@@ -7,9 +7,8 @@ import "../Components/App.css";
 const Body = () =>{
     return (
         <>
-       
         <div className="container col-md-6">
-        <h2 className="text-center mt-4">Music</h2>
+        <h2 className="text-center mt-4 text-white">Music</h2>
         <div className="row text-center">
         {Data1.map((val)=>{
             return (
@@ -22,7 +21,7 @@ const Body = () =>{
         </div>
 
         <div className="container col-md-6">
-        <h2 className="text-center mt-5">Merch</h2>
+        <h2 className="text-center mt-5 text-white">Merch</h2>
         <div className="row text-center">
         {Data2.map((val)=>{
             return (
