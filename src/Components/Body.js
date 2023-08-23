@@ -2,12 +2,14 @@ import MusicCard from "./MusicCard";
 import MerchCard from "./MerchCard";
 import Data1 from "./Data1";
 import Data2 from "./Data2";
+import Button from "./Button";
+import "../Components/App.css";    
 const Body = () =>{
     return (
         <>
        
         <div className="container col-md-6">
-        <h2 className="text-center">Music</h2>
+        <h2 className="text-center mt-4">Music</h2>
         <div className="row text-center">
         {Data1.map((val)=>{
             return (
@@ -29,10 +31,9 @@ const Body = () =>{
                 </>
             )
         })}
-        <a href="#" target="_blank">
-         <button type="button" className="btn btn-warning mt-5 mb-5 p-3">See The Cart</button></a>
         </div>
         </div>
+        <Button/>
         </>
     )
 }
